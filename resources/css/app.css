@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+}
+
+
+.foo {
+	box-shadow: rgba(255,255,255, 0.2) 1px 1px 20px;
+	padding: 50px;
+	min-width: 400px;
+}
+
+
+.bar {
+	background: red;
+	width: 75%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 25px;
+
+}
+
+.bar-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bar-asdf {
+	flex-grow: 1;
+	text-align: left;
+
+}
